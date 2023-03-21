@@ -76,6 +76,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\analyse_lexicale.c" />
     <ClCompile Include="evaluateur.c" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="main.cpp" />
