@@ -1,7 +1,12 @@
-#include "jeton.h"
+#include"evaluateur.h"
 
 
-
+void truc() {
+    printf("amogus");
+    int n;
+    scanf("%d", n);
+    printf("%d", n);
+}
 float Parcourir(struct Node* Arbre, float X) {
     float res;
 
@@ -147,5 +152,5 @@ int evaluer() {
     //printf("%f\n", Parcourir(&Node1,3.14));
 
 
-    return 0;
+    
 }

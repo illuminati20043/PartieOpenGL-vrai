@@ -8,6 +8,7 @@
 #include <cmath>
 #include "glut.h"
 #include<string>
+#include"evaluateur.h"
 
 using namespace std;
 float func[1000][2];
@@ -212,8 +213,8 @@ int main(int ac, char* av[])
         float y = log(-x);
         func[i][0] = x;
         func[i][1] = y;
-
     }
+    printf("parfait");
 
     InitGraph(ac, av, "Graphic Output", 640, 480, myDraw, myKey);
     return 0;
