@@ -216,6 +216,7 @@ int main(int ac, char* av[])
     }
     printf("parfait");
 
+
     InitGraph(ac, av, "Graphic Output", 640, 480, myDraw, myKey);
     return 0;
 }
